@@ -35,17 +35,21 @@
                         <div id="landingPageNavbarCollapse" class="collapse navbar-collapse">
                             <ul class="nav navbar-nav navbar-right">
                                 <li>
-                                    <a href="#why" data-ride="scroll">Why</a>
+                                    <a href="#Industry" data-ride="scroll">Industries</a>
                                 </li>
                                 <li>
-                                    <a href="#products" data-ride="scroll">Products</a>
+                                    <a href="#products-and-services" data-ride="scroll">Products & Services</a>
                                 </li>
+                                <!--
                                 <li>
                                     <a href="#clients" data-ride="scroll">Clients</a>
                                 </li>
+                                -->
+                                <!--
                                 <li>
                                     <a href="#pricing" data-ride="scroll">Pricing</a>
                                 </li>
+                                -->
                                 <li>
                                     <a href="#trydemo" data-ride="scroll">Try it</a>
                                 </li>
@@ -66,22 +70,30 @@
         <!-- end: Navigation/Header -->
 
         <!-- start: Home -->
-        <div id="home" class="relative app-jumbotron" data-parallax="scroll" data-image-src="img/main_bg.jpg">
+        <div id="home" class="relative app-jumbotron" data-parallax="scroll" style="rotation: 180deg;" data-image-src="img/backgrounds/sky-with-clouds.jpg">
             <div class="center-container">
-                <div class="centered">
+                <div id="introduction" class="centered">
                     <div class="container">
                         <div class="row text-center color-white">
                             <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                                 <div>
-                                    <h1 class="font-thin">
-                                        Flat web application template & UI KIT with Bootstrap 3 and AngularJS
+                                    <h1 id="heading-dispenser" class="font-thin" data-heading-id="1">
+                                        Reality Capture and Visualization <br>Tools for Everyone.
                                     </h1>
+                                    <!--
+                                    <h1 id="heading-dispenser" class="font-thin" data-heading-id="2">
+                                        We get you into VR
+                                    </h1>-->
                                     <h4>
-                                        This app is designed to robust/rich web applications.
+                                        Constructive Realities produces digital asset creation and management tools for Augmented and Virtual Reality.  We service a number of industries such as real estate, game design and E-Commerce.  Anywhere there is a need to capture and display object/environments in VR/AR we have something to contribute.
                                     </h4>
-                                    <div class="wow zoomIn" data-wow-delay="100ms">
-                                        <a href="#" class="btn btn-primary btn-rounded btn-line font-bold btn-b-2">Do not hesitate, buy it now!</a>
-                                    </div>
+                                    <!--  EXAMPLE BUTTONS
+                                    <span class="wow zoomIn" data-wow-delay="200ms">
+                                        <a href="#" class="btn btn-primary btn-rounded btn-line font-bold btn-b-2">Capabilities</a>
+                                    </span>
+                                    <span class="wow zoomIn" data-wow-delay="400ms">
+                                        <a href="#" class="btn btn-primary btn-rounded btn-line font-bold btn-b-2">Services</a>
+                                    </span>-->
                                 </div>
                             </div>
                         </div>
@@ -97,7 +109,7 @@
         <!-- end: Home -->
 
         <!-- start: Features -->
-        <div id="features" class="container relative content-padding">
+<!--        <div id="features" class="container relative content-padding">
             <div class="row text-left">
                 <div class="col-sm-8 col-sm-offset-2">
                     <div class="text-center m-b-50">
@@ -175,16 +187,16 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
         <!-- end: Features -->
 
-        <!-- start: Why -->
-        <div id="why" class="content-padding bg-lightgrey">
+        <!-- start: Industry -->
+        <div id="Industry" class="content-padding bg-lightgrey">
             <div class="container">
-                <div class="row m-b-50">
+                <div class="row m-b-50" data-industry="realestate">
                     <div class="col-md-8">
-                        <div class="subheading text-muted">Why us? Lorem ipsum dolor sit amet</div>
-                        <h1 class="no-m">Take a look around. It's Awesome!</h1>
+                        <div class="subheading text-muted">Residential Real Estate</div>
+                        <h1 class="no-m">Home Inspections</h1>
                         <div class="row m-t-30">
                             <div class="col-sm-6">
                                 <p class="text-lg font-thin">
@@ -197,7 +209,53 @@
                             </div>
                             <div class="col-sm-6">
                                 <p class="text-lg font-thin m-b-20">
-                                    Lorem ipsum <strong>dolor sit amet</strong>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+                                    Lorem ipsum <strong>dolor sit amet</strong>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                    sed quia non numquam eius modi tempora incidunt ut labore et dolore <span class="text-underline">magnam aliquam quaerat</span> voluptatem quam nihil molestiae
+                                    Lorem ipsum, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. tempora incidunt ut labore et dolore
+                                </p>
+                                <p class="text-lg font-thin m-b-20">
+
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/src1.png" class="img-responsive img-centered wow fadeInRight" alt="pic" data-wow-delay="300ms">
+                    </div>
+                </div>
+                <div class="row m-b-50" data-industry="retail">
+                    <div class="col-md-5 col-md-push-7">
+                        <div class="subheading text-muted m-t-30">eCommerce</div>
+                        <h1 class="no-m m-b-30">VR & AR Product Visualization</h1>
+                        <p class="text-lg font-thin">
+                            Lorem ipsum dolor sit amet, <span class="text-underline">consectetur adipiscing elit</span>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                        <p class="text-lg font-thin m-t-10 ">
+                            sed quia non numquam eius modi tempora incidunt ut labore et dolore <strong>magnam aliquam</strong> quaerat voluptatem quam nihil molestiae
+                        </p>
+                    </div>
+                    <div class="col-md-7 col-md-pull-5">
+                        <img src="img/src2.png" class="img-responsive img-centered wow fadeInLeft" alt="pic" data-wow-delay="300ms">
+                    </div>
+                </div>
+                <div class="row m-b-50" data-industry="education">
+                    <div class="col-md-8">
+                        <div class="subheading text-muted">Education</div>
+                        <h1 class="no-m">STEM & Computer Science</h1>
+                        <div class="row m-t-30">
+                            <div class="col-sm-6">
+                                <p class="text-lg font-thin">
+                                    Lorem ipsum dolor sit amet, <span class="text-underline">consectetur adipiscing elit</span>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                                <p class="text-lg font-thin m-t-10">
+                                    sed quia non numquam eius modi tempora incidunt ut labore et dolore <strong>magnam aliquam</strong> quaerat voluptatem quam nihil molestiae
+                                    Lorem ipsum dolor sit amet, <span class="text-underline">consectetur adipiscing elit</span>, sed do eiusmod tempor incididunt ut labore et dolore magna aliq
+                                </p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="text-lg font-thin m-b-20">
+                                    Lorem ipsum <strong>dolor sit amet</strong>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                                     sed quia non numquam eius modi tempora incidunt ut labore et dolore <span class="text-underline">magnam aliquam quaerat</span> voluptatem quam nihil molestiae
                                     Lorem ipsum, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. tempora incidunt ut labore et dolore
                                 </p>
@@ -210,18 +268,18 @@
                                     <a href="" class="btn btn-lg btn-black m-b-10">
                                         <span class="pull-left m-r-10">
                                             <i class="fa fa-apple fa-2x"></i>
-                                        </span> 
+                                        </span>
                                         <span class="block l-h-1x text-left overflow-x-hidden">
-                                            <span class="text-muted text-xs">Available on the</span> 
+                                            <span class="text-muted text-xs">Available on the</span>
                                             <span class="text-lg block m-b-3 font-bold">App Store</span>
                                         </span>
                                     </a>
                                     <a href="" class="btn btn-lg btn-black m-b-10">
                                         <span class="pull-left m-r-10">
                                             <i class="fa fa-android fa-2x"></i>
-                                        </span> 
+                                        </span>
                                         <span class="block l-h-1x text-left overflow-x-hidden">
-                                            <span class="text-muted text-xs">Available on the</span> 
+                                            <span class="text-muted text-xs">Available on the</span>
                                             <span class="text-lg block m-b-3 font-bold">Android Store</span>
                                         </span>
                                     </a>
@@ -233,83 +291,118 @@
                         <img src="img/src1.png" class="img-responsive img-centered wow fadeInRight" alt="pic" data-wow-delay="300ms">
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-5 col-md-push-7">
-                        <div class="subheading text-muted m-t-30">Lorem ipsum dolor sit amet</div>
-                        <h1 class="no-m m-b-30">Ipsum dolor sit!</h1>
-                        <p class="text-lg font-thin">
-                            Lorem ipsum dolor sit amet, <span class="text-underline">consectetur adipiscing elit</span>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
-                        <p class="text-lg font-thin m-t-10 ">
-                            sed quia non numquam eius modi tempora incidunt ut labore et dolore <strong>magnam aliquam</strong> quaerat voluptatem quam nihil molestiae
-                        </p>
-                    </div>
-                    <div class="col-md-7 col-md-pull-5">
-                        <img src="img/src2.png" class="img-responsive img-centered wow fadeInLeft" alt="pic" data-wow-delay="300ms">
-                    </div>
-                </div>
             </div>
         </div>
-        <!-- end: Why -->
+        <!-- end: Industry -->
 
-        <!-- start: Products -->
-        <div id="products" class="content-padding">
+        <!-- start: Products & Services -->
+        <div id="products-and-services" class="content-padding">
             <div class="container-fluid">
                 <div class="row">
                     <div class="text-center m-b-50">
-                        <div class="subheading text-muted">Admin template</div>
-                        <h1 class="no-m">Products</h1>
+                        <div class="subheading text-muted">Our</div>
+                        <h1 class="no-m">Products & Services</h1>
                     </div>
                 </div>
             </div>
             <div class="container-fluid">
-                <div class="row wow fadeIn" data-wow-delay="300ms">
-                    <div class="col-md-6 col-md-push-6 col-sm-6 col-sm-push-6 img-cover product-cover-h" style="background-image: url(img/products/mock2.jpg);"></div>
+                <div class="row wow fadeIn" data-wow-delay="300ms" data-capability="Photogrammetry">
+                    <div class="col-md-6 col-md-push-6 col-sm-6 col-sm-push-6 img-cover product-cover-h" style="background-image: url(img/capabilities/photogrammetry.jpg);"></div>
                     <div class="col-md-6 col-md-pull-6 col-sm-6 col-sm-pull-6">
                         <div class="xs-after-m">
                             <div class="row no-m">
                                 <div class="col-lg-6 col-lg-offset-5 col-md-8 col-md-offset-2 col-sm-12 no-p content-padding-alt">
-                                    <div class="subheading text-muted">Version 1.0</div>
+                                    <div class="subheading text-muted">Captura.io</div>
                                     <h2 class="no-m m-b-20">
-                                        AngularJS
+                                        Fast & Precise Volumetric Capture
                                     </h2>
                                     <p class="text-lg font-thin m-b-20">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
-                                        sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem quam nihil molestiae
+                                        Our Volumetric capture solution combines a readily available Android <a href="learnmore/tango">Tango</a> device with a tracking delivering sub millimeter tracking accuracy for superior captures.  Captura can also control modern Camera and Captura also facilitates the synchronization of RBG image data
                                     </p>
+                                    <!--<img src="img/vendor/google-tango.svg" style="width:100px"/>-->
+
                                     <div class="font-thin text-muted">Excepteur sint cupidtat on proident</div>
+<!--
                                     <div class="m-t-20">
                                         <div class="text-success b-rad-15 p-r-l-10 p-t-b-2 bg-success color-white inline-block">ready</div>
+                                    </div>
+-->
+                                    <div class="col-sm-12">
+                                        <div class="m-t-b-r0">
+                                            <img src="img/vendor/google-tango.svg" style="width:100px"/>
+                                            <!--    <a href="" class="btn btn-lg btn-black m-b-10">
+                                                <span class="pull-left m-r-10">
+                                                    <i class="fa fa-apple fa-2x"></i>
+                                                </span>
+                                                    <span class="block l-h-1x text-left overflow-x-hidden">
+                                                    <span class="text-muted text-xs">Available on the</span>
+                                                    <span class="text-lg block m-b-3 font-bold">App Store</span>
+                                                </span>
+                                                </a>-->
+                                            <a href="" class="btn btn-lg btn-black m-b-10">
+                                        <span class="pull-left m-r-10">
+                                            <i class="fa fa-android fa-2x"></i>
+                                        </span>
+                                                <span class="block l-h-1x text-left overflow-x-hidden">
+                                            <span class="text-muted text-xs">Coming soon to</span>
+                                            <span class="text-lg block m-b-3 font-bold">Google Play Store</span>
+                                        </span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row wow fadeIn" data-wow-delay="300ms">
-                    <div class="col-sm-6 img-cover product-cover-h" style="background-image: url(img/products/mock4.jpg);">
+                <style>
+                    div.video-overlay {
+                        background-image: url('img/overlays/black-small-checks.png');
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        bottom: 0;
+                        right: 0;
+                        pointer-events: none;
+                        opacity: 0.5;
+                        background-repeat: repeat;
+                    }
+                </style>
+                <div class="row wow fadeIn" data-wow-delay="300ms" data-capability="Computer Vision Research">
+                    <div class="col-sm-6 faded">
+                        <video class='faded' src="img/capabilities/cloud-nav.mp4" loop autoplay style="background-size: cover;pointer-events: none;">
+                            <source src="img/capabilities/big_buck_bunny.mp4" type="video/mp4">
+                            <p>Your browser does not support H.264/MP4.</p>
+                        </video>
+                        <div class="video-overlay">
+
+                        </div>
                     </div>
+
+                    <!--<div class="col-sm-6 img-cover product-cover-h" style="background-image: url(img/capabilities/photogrammetry-2.jpg);">
+                    </div>-->
                     <div class="col-sm-6">
                         <div class="xs-after-m">
                             <div class="row no-m">
                                 <div class="col-lg-6 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12 no-p content-padding-alt">
-                                    <div class="subheading text-muted">Extra</div>
+                                    <div class="subheading text-muted">Web-based Management Processing Tools</div>
                                     <h2 class="no-m m-b-20">
-                                        Landing Page
+                                        webInteractive Viewing and management tools
                                     </h2>
                                     <p class="text-lg font-thin m-b-20">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                                         sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem quam nihil molestiae
                                     </p>
                                     <div class="font-thin text-muted">Excepteur sint cupidtat on proident</div>
-                                    <div class="m-t-20">
+<!--                                    <div class="m-t-20">
                                         <div class="text-success b-rad-15 p-r-l-10 p-t-b-2 bg-success color-white inline-block">ready</div>
-                                    </div>
+                                    </div>-->
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!--
                 <div class="row wow fadeIn" data-wow-delay="300ms">
                     <div class="col-md-6 col-md-push-6 col-sm-6 col-sm-push-6 img-cover product-cover-h" style="background-image: url(img/products/mock1.jpg);">
                     </div>
@@ -322,7 +415,7 @@
                                         HTML/JQuery version
                                     </h2>
                                     <p class="text-lg font-thin m-b-20">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                                         sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem quam nihil molestiae
                                     </p>
                                     <div class="font-thin text-muted">Excepteur sint cupidtat on proident</div>
@@ -346,7 +439,7 @@
                                         AngularJS SPA apps
                                     </h2>
                                     <p class="text-lg font-thin m-b-20">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                                         sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem quam nihil molestiae
                                     </p>
                                     <div class="font-thin text-muted">Excepteur sint cupidtat on proident</div>
@@ -358,11 +451,13 @@
                         </div>
                     </div>
                 </div>
+                -->
             </div>
         </div>
         <!-- end: Products -->
 
         <!-- start: Clients -->
+        <!--
         <div id="clients" class="container content-padding">
             <div class="m-b-50 text-center">
                 <div class="subheading text-muted">comments</div>
@@ -380,7 +475,7 @@
                                 <div class="font-normal">Mikhail Zane</div>
                                 <div class="text-muted text-xs">BigData</div>
                             </div>
-                        </div> 
+                        </div>
                     </div>
                     <div class="story-item">
                         <p class="story-content text-lg">
@@ -392,7 +487,7 @@
                                 <div class="font-normal">Vladislav Torp</div>
                                 <div class="text-muted text-xs">AngularJS</div>
                             </div>
-                        </div> 
+                        </div>
                     </div>
                     <div class="story-item">
                         <p class="story-content text-lg">
@@ -404,7 +499,7 @@
                                 <div class="font-normal">Kate Ivy</div>
                                 <div class="text-muted text-xs">Github</div>
                             </div>
-                        </div> 
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
@@ -418,7 +513,7 @@
                                 <div class="font-normal">Joe Bond</div>
                                 <div class="text-muted text-xs">Backnbone</div>
                             </div>
-                        </div> 
+                        </div>
                     </div>
                     <div class="story-item">
                         <p class="story-content text-lg">
@@ -430,7 +525,7 @@
                                 <div class="font-normal">Uhre Buck</div>
                                 <div class="text-muted text-xs">Ember</div>
                             </div>
-                        </div> 
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-5 col-sm-6">
@@ -444,7 +539,7 @@
                                 <div class="font-normal">Tom Hadge</div>
                                 <div class="text-muted text-xs">Jquery</div>
                             </div>
-                        </div> 
+                        </div>
                     </div>
                     <div class="story-item">
                         <p class="story-content text-lg">
@@ -456,7 +551,7 @@
                                 <div class="font-normal">Higgins Igor</div>
                                 <div class="text-muted text-xs">Github</div>
                             </div>
-                        </div> 
+                        </div>
                     </div>
                     <div class="story-item">
                         <p class="story-content text-lg">
@@ -468,15 +563,16 @@
                                 <div class="font-normal">John Doe</div>
                                 <div class="text-muted text-xs">Protect</div>
                             </div>
-                        </div> 
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        -->
         <!-- end: Clients -->
 
         <!-- start: More features -->
-        <div class="bg-light lt">
+        <!--<div class="bg-light lt">
             <div class="container content-padding">
                 <div class="m-b-50 text-center">
                     <div class="subheading text-muted">awesome</div>
@@ -587,11 +683,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
         <!-- end: More features -->
 
         <!-- start: Pricing -->
-        <div id="pricing" class="brown-gradient content-padding">
+        <!--<div id="pricing" class="brown-gradient content-padding">
             <div class="container font-thin">
                 <div class="m-b-50 text-center">
                     <div class="subheading text-muted">choose now</div>
@@ -858,7 +954,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
         <!-- end: Pricing -->
 
         <!-- start: Try demo form -->
@@ -966,7 +1062,7 @@
                     </div>
                     <div class="checkbox xs-after-m-b clearfix">
                         <label class="app-checkbox">
-                            <input type="checkbox"> 
+                            <input type="checkbox">
                             <i></i>
                             News subscribe
                         </label>
@@ -978,7 +1074,7 @@
         <!-- end: Try demo form -->
 
         <!-- start: Logos -->
-        <div class="bg-lightgrey">
+        <!--<div class="bg-lightgrey">
             <div class="container xs-no-p">
                 <div class="row no-m">
                     <div class="col-md-3 col-sm-3 col-xs-6 no-p">
@@ -995,7 +1091,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
         <!-- end: Logos -->
 
         <!-- start: Block:help -->
@@ -1003,8 +1099,8 @@
             <div class="container content-padding">
                 <div class="row text-center">
                     <div class="col-md-8 col-md-push-2">
-                        <div class="subheading text-muted">we help you</div>
-                        <h2 class="no-m m-b-20">Still can't find what you are looking for?</h2>
+                        <div class="subheading text-muted">looking for more?</div>
+                        <h2 class="no-m m-b-20">If you have any questions about how we might be able to help you</h2>
                         <p class="text-lg font-thin no-m">
                             Let us know about your problem and we'll get in touch with you
                         </p>
@@ -1061,7 +1157,7 @@
                             <li class="m-b-10"><i class="fa fa-angle-right"></i> 1600 West Antelope Drive </li>
                             <li class="m-b-10"><i class="fa fa-angle-right"></i> Layton, UT 84041</li>
                             <li class="m-b-10"><i class="fa fa-angle-right"></i> (801) 807-1000</li>
-                            <li><i class="fa fa-angle-right"></i> info@johndoe.com</li>
+                            <li><i class="fa fa-angle-right"></i> info@constructiverealities.io</li>
                         </ul>
                     </div>
                     <div class="col-sm-3 m-b-20 xs-text-center">
@@ -1086,25 +1182,25 @@
                     </div>
                     <div class="col-sm-3 m-b-20 xs-text-center">
                         <div class="h4 no-m m-b-10 subheading subheading-lg">ABOUT US</div>
-                        <p class="hint-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p> 
+                        <p class="hint-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="bg-grey2 dk p-t-b-10">
+
+        <!--<div class="bg-grey2 dk p-t-b-10" id="footer-menu">
             <div class="container">
                 <div class="row p-t-10 text-xs">
                     <div class="col-sm-12 col-xs-12 clearfix">
                         <ul class="list-inline inline-block hint-text">
-                            <li><a href="#products" class="text-white">Products</a></li>
-                            <li><a href="#clients" class="text-white">Clients</a></li>
-                            <li><a href="#pricing" class="text-white">Pricing</a></li>
+                            <li><a href="#capabities" class="text-white">Capabilites</a></li>
                         </ul>
                         <span class="pull-right">YeApp © 2015</span>
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
+
         <!-- end: Footer/Contact -->
 
         <!-- start: JS scripts -->
@@ -1118,6 +1214,6 @@
         <script type="text/javascript" src="js/parallax.js/parallax.min.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
         <!-- end: JS scripts -->
-        
+
     </body>
 </html>
