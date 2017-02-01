@@ -17,10 +17,10 @@ function yScrollEvent(){
     var bWidth = $(window).width();
     var sOffset = bWidth>768 ? 300 : 300;
     nav.removeClass("navbar-styled");
-    $("#brand-logo").attr("src","img/yeapp-logo-dk.png");
+    $("#brand-logo").attr("src","img/cr-logo_185x50-dk.png");
     if (yPos > sOffset) {
         nav.addClass("navbar-styled");
-        $("#brand-logo").attr("src","img/yeapp-logo.png");
+        $("#brand-logo").attr("src","img/cr-logo_185x50.png");
     }
 }
 
