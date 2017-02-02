@@ -71,3 +71,7 @@ $(document).on('click.app', '[data-ride="scroll"]', function (e) {
     });
     return false;
 });
+
+$(function(){
+    //TODO: select all videos lsections and rework them to replace placeholder images once the video has async load.
+});
