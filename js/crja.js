@@ -14,5 +14,5 @@ if (window.location.hostname === 'constructiverealities.io') {
     ga('send', 'pageview');
 }
 else{
-    console.log("skipped GA on non-productin domain");
+    console.log("skipped GA on non-production domain");
 }
