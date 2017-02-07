@@ -13,3 +13,6 @@ if (window.location.hostname === 'constructiverealities.io') {
     ga('create', 'UA-91526318-1', 'auto');
     ga('send', 'pageview');
 }
+else{
+    console.log("skipped GA on non-productin domain");
+}
