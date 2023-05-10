@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="141.66406mm"
+   height="100.99813mm"
+   viewBox="0 0 141.66406 100.99813"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="buzzword-bingo4.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.90583674"
+     inkscape:cx="721.43243"
+     inkscape:cy="241.21344"
+     inkscape:window-width="2560"
+     inkscape:window-height="1521"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="-370.79059"
+       y="-81.183624"
+       width="246.67331"
+       height="92.892799"
+       id="rect95273" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-5.8677064,-9.2223235)">
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:'Bebas Neue';-inkscape-font-specification:'Bebas Neue';stroke-width:0.264583"
+       x="9.8984003"
+       y="22.047552"
+       id="text429"><tspan
+         sodipodi:role="line"
+         id="tspan427"
+         style="font-weight:bold;stroke-width:0.264583"
+         x="9.8984003"
+         y="22.047552">workflow</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="9.8984003"
+         y="35.276676"
+         id="tspan301064">workflow</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="9.8984003"
+         y="48.505802"
+         id="tspan301066">work<tspan
+   style="font-weight:bold"
+   id="tspan304699">flow</tspan></tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="9.8984003"
+         y="61.734924"
+         id="tspan301068"><tspan
+   style="font-weight:bold"
+   id="tspan305477">work</tspan>flow</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text95271"
+       style="font-size:40px;line-height:1.25;font-family:'Bebas Neue';-inkscape-font-specification:'Bebas Neue';white-space:pre;shape-inside:url(#rect95273)" />
+  </g>
+</svg>
