@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>&lt;model-viewer&gt; template</title>
+    <meta charset="utf-8">
+    <meta name="description" content="&lt;model-viewer&gt; template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="./styles.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <!-- <model-viewer> HTML element -->
+    <model-viewer src="stovetop_vga_1mp_a_r1.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" environment-image="studio_small_08_1k.hdr" skybox-image="studio_small_08_1k.hdr" shadow-softness="0.95" exposure="0.73" camera-orbit="289.3deg 84.82deg 0.196m" field-of-view="13.86deg">
+        <button class="Hotspot" slot="hotspot-1" data-surface="0 0 9801 9802 9814 0.772 0.048 0.180" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">ToF Lens</div>
+        </button><button class="Hotspot" slot="hotspot-2" data-surface="0 0 5445 5446 5453 0.031 0.383 0.586" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">RGB WFOV 1280x800 global shutter</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-surface="0 0 10520 10503 10521 0.320 0.482 0.197" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Illuminator</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-surface="0 0 6287 6182 6288 0.239 0.317 0.445" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Raspberry Pi 15-pin Connector #1</div>
+    </button><button class="Hotspot" slot="hotspot-5" data-surface="0 0 11339 11268 11340 0.132 0.263 0.605" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Raspberry Pi 15-pin Connector #2</div>
+    </button><button class="Hotspot" slot="hotspot-6" data-surface="0 0 17053 17054 17070 0.390 0.496 0.114" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">External Power 5VDC 2A</div>
+    </button>
+      <div class="progress-bar hide" slot="progress-bar">
+          <div class="update-bar"></div>
+      </div>
+      <button slot="ar-button" id="ar-button">
+          View in your space
+      </button>
+      <div id="ar-prompt">
+          <img src="ar_hand_prompt.png">
+      </div>
+    </model-viewer>  
+    <script src="script.js"></script>
+    <!-- Loads <model-viewer> for browsers: -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
+  </body>
+</html>
+
+<!-- https://polyhaven.com/a/studio_small_08 -->
