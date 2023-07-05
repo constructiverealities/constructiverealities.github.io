@@ -22,13 +22,19 @@
     </model-viewer>
 
     <script>
+      // get reference to model viewer
+      const modelViewer = document.getElementById('model-viewer');
+
       // Retrieve the 'model' querystring parameter
       const urlParams = new URLSearchParams(window.location.search);
       const modelParam = urlParams.get('model');
+      
+      const exposureParam = urlParams.get('exposure') || '1'
+      modelViewer.setAttribute('exposure', exposureParam)
+
 
       // Set the 'src' attribute of the <model-viewer> element
       if (modelParam) {
-        const modelViewer = document.getElementById('model-viewer');
         modelViewer.setAttribute('src', modelParam);
       }
     </script>
